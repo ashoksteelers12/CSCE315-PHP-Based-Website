@@ -1,5 +1,7 @@
 # CSCE315-PHP-Based-Website
 
+### Instructions
+
 The main file that serves as the entry to your web site will be "index.php". A PHP file mixes HTML, CSS, javascript, to generate static/dynamic content. For example, this course's web page is written in PHP. The PHP script can be written in any style, and the content can be of your choosing, but it will require the following technical elements:
 
   A multiple-page web site focused on highlighting your professional skills.
@@ -28,5 +30,7 @@ There are four major features you need to support:
    * Simplified Wikitext processor : to display Wikitext-like formatted text, read from a file.
    * Interactive gallery : photo gallery supporting navigation and different views (list view vs. matrix view), and thumbnail size control.
    * Search : search for text in your web site.
+
+### View Website
 
 http://ashok-meyyappan.42web.io/
