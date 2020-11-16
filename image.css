@@ -1,0 +1,36 @@
+div.defaultFont {
+    font-family: Helvetica, Arial, sans-serif;
+}
+    
+div.secondaryFont {
+    font-family: serif;
+}
+
+img {
+    padding: 5px;
+    width: 400px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+}
+
+.descr {
+    display: flex;
+}
+
+.descc {
+    flex: 25%;
+}
+    
+.links_ul {
+    list-style-type: none;
+}
+
+.links_li {
+    display: inline;
+}

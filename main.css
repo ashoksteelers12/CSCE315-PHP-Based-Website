@@ -1,0 +1,19 @@
+div.defaultFont {
+    font-family: Helvetica, Arial, sans-serif;
+}
+    
+div.secondaryFont {
+    font-family: serif;
+}
+
+h3 {
+    color: blue;
+}
+
+.links_ul {
+    list-style-type: none;
+}
+
+.links_li {
+    display: inline;
+}
