@@ -1,4 +1,4 @@
-# CSCE315-PHP-Based-Website
+# PHP-Based-Website
 
 ### Instructions
 
