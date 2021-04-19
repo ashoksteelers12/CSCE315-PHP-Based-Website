@@ -2,7 +2,7 @@
   <a href="https://www.vectorlogo.zone/logos/php/index.html"><img src="https://www.vectorlogo.zone/logos/php/php-ar21.svg" alt="PHP Logo" height="100" width="200"></a>
 </p>
 
-# PHP-Based-Website
+# PHP-Based Website
 
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
