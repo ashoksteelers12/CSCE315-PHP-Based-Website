@@ -1,35 +1,57 @@
 # PHP-Based-Website
 
-### Instructions
+A website framework developed from PHP code with easily configurable content using plain text data files, and interactive features. This was completed as a project for CSCE 315 in Fall 2020. 
 
-The main file that serves as the entry to your web site will be "index.php". A PHP file mixes HTML, CSS, javascript, to generate static/dynamic content. For example, this course's web page is written in PHP. The PHP script can be written in any style, and the content can be of your choosing, but it will require the following technical elements:
+## Table of Contents
 
-  A multiple-page web site focused on highlighting your professional skills.
-  
-  * index.php : main page -- your basic professional information, education, skills, experiences, professional interests.
-  * gallery.php : gallery (Javascript-based): highlight your previous project screenshots or other people's project you find interesting.
-  * blog.php : development blog (Writing requirement)
-  * tips.php : coding tips collection
-  * resources.php : resources collection
-  
-Use of CSS for consistent styling across the entire site: headings, paragraphs, code boxes, etc.
+- [About](#about)
+  - [CSV Parser](#csv-parser)
+  - [Wikitext Processor](#wikitext-parser)
+  - [Interactive Gallery](#interactive-gallery)
+  - [Search](#search)
+- [Usage](#usage)
 
-Use of the following elements in your PHP scripts:
-   * regular expressions
-   * file I/O
-   * arrays
-   * sorting
-   * date/time functions
-   * automatically generated tabular data
-   * HTML forms (implementing search function)
-   * security features (sanitizing user input)
-   * Javascript functions for image gallery UI and navigation
-  
-There are four major features you need to support:
-   * CSV file processor : to display tabular data read from a file.
-   * Simplified Wikitext processor : to display Wikitext-like formatted text, read from a file.
-   * Interactive gallery : photo gallery supporting navigation and different views (list view vs. matrix view), and thumbnail size control.
-   * Search : search for text in your web site.
+## About
+
+### CSV Parser
+
+The CSV parser is located in proc_csv.php. The parser takes the type of delimeter, type of quote, the file name, and the amount of desired columns as input to display in order to parse CSV files for displaying in a webpage. 
+
+### Wikitext Processor
+
+The Wikitext processor is located in proc_wikitext.php. The processor takes a Wikitext file and performs the conversion to HTML to display on a webpage. These are the conversions that the processor supports:
+
+- Italics/Bold
+- Text Highlighting/Coloring
+- Images
+- Links
+- Headings
+- Horizontal Rule
+- Indentation/Line Breaks
+- Blockquotes
+- Unordered Lists/Ordered Lists (Up to level 7)
+- Description Lists
+
+### Interactive Gallery
+
+The interactive gallery is located in proc_gallery.php. The gallary function takes a CSV file with images (image links), the mode, and the sort mode to display a desired gallery in any webpage. The various modes are: 
+
+- Matrix 
+- Details (Lists out image details)
+- List
+
+The sorting options are:
+
+- Newest/Oldest
+- Largest/Smallest
+- Random/Original (How it was in CSV)
+
+### Search
+
+The search is located in search.php. The search allows one to be able to search for desired keywords throughout a website. It requires the input of the url for the particular page wanting to search on and the keyword. Warning: There are a few bugs in the search function involving regex, which does not allow it to completely work in extremely complex pages. 
+
+## Usage
+
 
 ### View Website
 
