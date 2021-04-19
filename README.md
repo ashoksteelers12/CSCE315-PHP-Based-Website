@@ -1,4 +1,11 @@
+<p align="center">
+  <a href="https://www.vectorlogo.zone/logos/php/index.html"><img src="https://www.vectorlogo.zone/logos/php/php-ar21.svg" alt="PHP Logo" height="100" width="200"></a>
+</p>
+
 # PHP-Based-Website
+
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
 
 A website framework developed from PHP code with easily configurable content using plain text data files, and interactive features. This was completed as a project for CSCE 315 in Fall 2020. 
 
@@ -80,3 +87,7 @@ proc_gallery("gallery_test.csv", "list", "orig");
 #### View Example Website
 
 http://ashok-meyyappan.42web.io/
+
+<p align="center">
+  Copyright © 2020 ashoksteelers12
+</p>
