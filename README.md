@@ -10,7 +10,7 @@ A website framework developed from PHP code with easily configurable content usi
   - [Interactive Gallery](#interactive-gallery)
   - [Search](#search)
 - [Usage](#usage)
-- [View Website](#view-website)
+- [View Example Website](#view-example-website)
 
 ## About
 
@@ -73,6 +73,6 @@ include 'proc_gallery.php';
 proc_gallery("gallery_test.csv", "list", "orig");
 ```
 
-#### View Website
+#### View Example Website
 
 http://ashok-meyyappan.42web.io/
