@@ -47,6 +47,8 @@ The sorting options are:
 - Largest/Smallest
 - Random/Original (How it was in CSV)
 
+Warning: Though an example gallery test file is provided, it will not work, since the images are not stored here. It would be best to replace the images with your own image addresses. 
+
 ### Search
 
 The search is located in search.php. It uses action.php for assistance in outputting the search keyword. The search allows one to be able to search for desired keywords throughout a website. It requires the input of the url for the particular page wanting to search on and the keyword. Warning: There are a few bugs in the search function involving regex, which does not allow it to completely work in extremely complex pages.
