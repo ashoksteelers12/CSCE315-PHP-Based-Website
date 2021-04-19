@@ -10,6 +10,7 @@ A website framework developed from PHP code with easily configurable content usi
   - [Interactive Gallery](#interactive-gallery)
   - [Search](#search)
 - [Usage](#usage)
+- [View Website](#view-website)
 
 ## About
 
@@ -48,11 +49,30 @@ The sorting options are:
 
 ### Search
 
-The search is located in search.php. The search allows one to be able to search for desired keywords throughout a website. It requires the input of the url for the particular page wanting to search on and the keyword. Warning: There are a few bugs in the search function involving regex, which does not allow it to completely work in extremely complex pages. 
+The search is located in search.php. It uses action.php for assistance in outputting the search keyword. The search allows one to be able to search for desired keywords throughout a website. It requires the input of the url for the particular page wanting to search on and the keyword. Warning: There are a few bugs in the search function involving regex, which does not allow it to completely work in extremely complex pages.
 
 ## Usage
 
+Running proc_csv.php: 
+```
+include 'proc_csv.php';
+proc_csv("experience.csv",",","\"","ALL");
+```
 
-### View Website
+
+Running proc_wikitext.php: 
+```
+include 'proc_csv.php';
+proc_wikitext("test.wiki");
+```
+
+
+Running proc_gallery.php: 
+```
+include 'proc_gallery.php';
+proc_gallery("gallery_test.csv", "list", "orig");
+```
+
+###### View Website
 
 http://ashok-meyyappan.42web.io/
