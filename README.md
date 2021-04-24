@@ -87,7 +87,3 @@ proc_gallery("gallery_test.csv", "list", "orig");
 #### View Example Website
 
 http://ashok-meyyappan.42web.io/
-
-<p align="center">
-  Copyright © 2020 ashoksteelers12
-</p>
